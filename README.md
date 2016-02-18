@@ -4,7 +4,7 @@ Web page containing about, portfolio and contacts pages.
 
 ### About
 
-Short bio about myself. Stacks I've been working with, interests and hobbies.
+Short info about myself. Stacks I've been working with, interests and hobbies.
 
 ### Portfolio
 
