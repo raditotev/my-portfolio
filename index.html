@@ -23,8 +23,8 @@
 				</button>
 			</div>
 			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				<ul class="nav navbar-nav navbar-right">
+			<div class="collapse navbar-collapse pull-right" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-righ text-center">
 					<li><a href="#home">Home</a></li>
 					<li><a href="#about">About</a></li>
 					<li><a href="#portfolio">Portfolio</a></li>
@@ -37,10 +37,12 @@
 	</nav>
 	<div class="container" id="main">
 		<div class="row vertical-center" id="home">
-			<h1 class="text-center">Hello and welcome to my Portfolio</h1>
+			<div class="col-xs-12">
+				<h1 class="text-center">Hello and welcome to my Portfolio</h1>
+			</div>
 		</div>
 		<div class="row vertical-center" id="about">
-			<div class="col-md-12 ">
+			<div class="col-xs-12 ">
 				<img src="https://scontent-lhr3-1.xx.fbcdn.net/hphotos-xfa1/t31.0-8/906572_4725798148922_1199412779_o.jpg" class="img-rounded pull-left" alt="Photo of me" />
 				<h1 class="text-right">About me</h1>
 				<p class="text-justify">Hi, my name is Radi. I'm newly hatched web developer trying to find his place in the IT jungle. For the last two years I was playing around with Java, Python an Pythons's framework Django, Bootstrap, Javascript, jQuery, Ajax, Ruby and Ruby on
@@ -60,14 +62,14 @@
 			</div>
 		</div>
 		<div class="row vertical-center" id="portfolio">
-			<div class="col-12">
+			<div class="col-xs-12">
 				<div class"row">
 					<div class="col-12">
 						<h1>Portfolio</h1>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-sm-6 col-md-4">
+					<div class="col-sm-12 col-md-4">
 						<div class="thumbnail">
 							<a href="odin-facebook-clone.herokuapp.com" target="_blank">
 								<img src="http://i67.tinypic.com/3446owp.png" class="img-responsive" alt="facebook clone img">
@@ -83,7 +85,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-sm-6 col-md-4">
+					<div class="col-sm-12 col-md-4">
 						<div class="thumbnail">
 							<a href="http://compelling-weft-95914.appspot.com/" target="_blank">
 								<img src="http://i67.tinypic.com/10r8wes.png" alt="Intro to programming">
@@ -99,7 +101,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-sm-6 col-md-4">
+					<div class="col-sm-12 col-md-4">
 						<div class="thumbnail">
 							<a href="https://infinite-bastion-3846.herokuapp.com/" target="_blank">
 								<img src="http://i63.tinypic.com/21azb0m.png" alt="Sample app">
@@ -117,7 +119,7 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-sm-6 col-md-4">
+					<div class="col-sm-12 col-md-4">
 						<div class="thumbnail">
 							<a href="http://codepen.io/raditotev/full/Bjbzde" target="_blank">
 								<img src="http://i63.tinypic.com/qn9v0h.png" class="img-responsive" alt="Quote app screenshot">
@@ -133,7 +135,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-sm-6 col-md-4">
+					<div class="col-sm-12 col-md-4">
 						<div class="thumbnail">
 							<a href="http://codepen.io/raditotev/full/ZQPqLw" target="_blank">
 								<img src="http://i68.tinypic.com/spgl6o.png" alt="Weather App screenshot">
@@ -149,7 +151,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-sm-6 col-md-4">
+					<div class="col-sm-12 col-md-4">
 						<div class="thumbnail">
 							<a href="#" target="_blank">
 								<img src="http://cdn.shopify.com/s/files/1/0040/3712/files/Coming-Soon.jpg?1023" alt="Coming soon">
@@ -168,22 +170,22 @@
 				<div class="col-xs-12">
 					<h1 class="text-center">Contacts</h1>
 					<div class="row text-center">
-						<div class="col-xs-6 col-md-3">
+						<div class="col-xs-12 col-md-3">
 							<a href="https://github.com/raditotev">
 								<i class="fa fa-github fa-3x"></i> <span id="github" target="_blank">GitHub</span>
 							</a>
 						</div>
-						<div class="col-xs-6 col-md-3">
+						<div class="col-xs-12 col-md-3">
 							<a href="https://uk.linkedin.com/in/radi-totev-9589b673" target="_blank">
 								<i class="fa fa-linkedin fa-3x"></i> <span id="linkedin">LinkedIn</span>
 							</a>
 						</div>
-						<div class="col-xs-6 col-md-3">
+						<div class="col-xs-12 col-md-3">
 							<a href="https://plus.google.com/105018255652525229261" target="_blank">
 								<i class="fa fa-google-plus fa-3x"></i> <span id="googleplus">Google</span>
 							</a>
 						</div>
-						<div class="col-xs-6 col-md-3">
+						<div class="col-xs-12 col-md-3">
 							<a href="http://www.freecodecamp.com/raditotev" target="_blank">
 								<i class="fa fa-fire fa-3x" ><span id="freecodecamp">freeCodeCamp</span></i>
 							</a>
@@ -196,4 +198,8 @@
 	<footer class="text-center">
 		Created by <span>Radi Totev</span>
 	</footer>
+	<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<script src="custom.js"></script>
+
 	</html>
